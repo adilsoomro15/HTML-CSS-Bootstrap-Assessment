@@ -23,9 +23,16 @@
 .introtext {
     margin-right: 269px;
 }
-h1 {
+h1, h2 {
     font-family: 'Nunito Sans', sans-serif !important;
 }
 body {
     font-family: 'Montserrat', sans-serif;
+}
+.progress {
+    border-radius: 0 !important;
+    height: 5px !important;
+}
+.progress-bar {
+    background-color: #10C9C3 !important;
 }
