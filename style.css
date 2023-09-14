@@ -3,7 +3,6 @@
 }
 #landingpage {
     background-image: url("images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
-
         top: 0px;
         right: 0px;
         bottom: 237px;
@@ -35,4 +34,13 @@ body {
 }
 .progress-bar {
     background-color: #10C9C3 !important;
+}
+#statspage {
+    background-color: #10C9C3;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+h4 {
+    font-size: 12px !important;
 }
