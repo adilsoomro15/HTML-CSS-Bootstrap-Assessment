@@ -23,3 +23,9 @@
 .introtext {
     margin-right: 269px;
 }
+h1 {
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
