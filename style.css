@@ -6,6 +6,7 @@
         top: 0px;
         right: 0px;
         bottom: 237px;
+      padding-bottom: 400px;
         left: 0px;
         background-size: cover;
 }
@@ -17,7 +18,7 @@
     font-weight: bold !important;
 }
 .headingspace {
-    padding-top: 163px;
+    padding-top: 302px;
 }
 .introtext {
     margin-right: 269px;
@@ -43,4 +44,51 @@ body {
 }
 h4 {
     font-size: 12px !important;
+}
+
+.image1 {
+    background-image: url("images/Package Design Lemon Tea - fabian krotzer Frame.png");
+}
+.image2 {
+    background-image: url("images/Package Design Vanilla Powder - fabian krotzer Frame.png");
+}
+.image3 {
+    background-image: url("images/Package Design Coconut - fabian krotzer Frame.png");
+}
+.image4 {
+    background-image: url("images/Package Design Komaso - fabian krotzer Frame.png");
+}
+.image5 {
+    background-image: url("images/Package Design Spices - fabian krotzer Frame.png");
+}
+.image6 {
+    background-image: url("images/Package Design Salad - fabian krotzer Frame.png");
+}
+.image7 {
+    background-image: url("images/Package Design Olive Oil - fabian krotzer Frame.png");
+}
+.image8 {
+    background-image: url("images/Package Design Seaweed - fabian krotzer Frame.png");
+}
+
+.galleryimage {
+    height: 450px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoverImg {
+    position: absolute;
+    left: 200;
+    top: 200;
+    display: none;
+}
+
+.galleryimage:hover .hoverImg {
+    display: block;
+}
+
+.spacebar {
+    padding-top:100px;
+    background-color: #F5F5F5;
 }
