@@ -92,3 +92,23 @@ h4 {
     padding-top:100px;
     background-color: #F5F5F5;
 }
+.quoteauthor {
+    font-size: 12px;
+}
+.quote {
+    font-size: 20px;
+}
+#quotepage {
+    background-color: #10C9C3;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#logospage {
+    background-color: #FFFFFF;
+}
+#formpage {
+    background-color: #F5F5F5;
+}
+input {
+    border-radius: 0px !important;
+}
