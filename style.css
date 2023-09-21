@@ -86,6 +86,7 @@ h4 {
 
 .galleryimage:hover .hoverImg {
     display: block;
+    background-color: rgba(0, 0, 0, 0.37)
 }
 
 .spacebar {
