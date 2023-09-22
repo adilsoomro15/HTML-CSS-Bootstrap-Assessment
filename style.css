@@ -75,18 +75,28 @@ h4 {
     height: 450px !important;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
-.hoverImg {
+.galleryimage > div {
     position: absolute;
-    left: 200;
-    top: 200;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
     display: none;
 }
-
-.galleryimage:hover .hoverImg {
+.hoverImg {
+    margin:auto;
     display: block;
-    background-color: rgba(0, 0, 0, 0.37)
+    height:100%;
+    width:48px;
+    object-fit:contain;
+}
+.galleryimage:hover > div {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.534)
 }
 
 .spacebar {
